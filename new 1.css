@@ -1,0 +1,400 @@
+body{
+background: url(fon1.jpg);
+background-attachment: fixed;
+background-size: 100%;
+}
+p {
+text-indent: 15px;
+font-family: "Monotype Corsiva", Cursive;
+color: #FFFFFF;
+}
+.title1 {text-align: center;}
+h1{color: #FFFFFF;}
+.title1 a{ color: white;}
+h2{color: #FFFFFF;}
+h3{color: #FFFFFF;}
+.site-block{
+	width: 1200px;
+	height: 2697px;
+	margin: 0 auto;
+	background: rgba(148,0,211,0.5);
+}
+.header{
+	width: 1200px;
+	height: 197px;
+	margin: auto;
+}
+.header a{
+	text-decoration: none;
+    color: black;
+}
+.logo img{
+	width: 150px;
+	height: 130px;
+}
+.logo{
+	padding: 10px 15px 10px 10px;
+	width: 160px;
+	height: 250px;
+	float: left;
+}
+.slide {
+ width: 1200px;
+ height: 600px;
+ margin-left: auto;
+ margin-right: auto;
+ position: relative;
+ text-align: center;
+ }
+.slide input {display: none;}
+ .slide input + label {
+ display: inline-block;
+ width: 20px;
+ height: 10px;
+ border-radius: 8px;
+ background: rgba(120, 100, 90, 0.8);
+ border: 2px solid rgba(190, 190, 190, 0.8);
+ cursor: pointer;
+ z-index: 100;
+ position: relative;
+ margin-right: 5px;
+ top: 90%;
+ transition: background 0.8s ease-out 0s;
+ left: -100px;
+ }
+ .slide input + label:hover {background: rgba(250, 250, 250, 0.8);}
+ .slide input:checked + label {background: rgba(220, 220, 220, 0.8);}
+ .slide div {
+ position: absolute;
+ top: 0px;
+ left: 0px;
+ right: 0px;
+ bottom: 0px;
+ }
+ .slide div {
+ visibility: hidden;
+ opacity: 0;
+ transition: opacity 0.8s ease-out 0.1s, visibility 0.1s ease-out 0.9s;
+ }
+.slide img {
+ width:1200px;
+height:600px;
+ }
+ .slide input:checked + label + div {
+ visibility: visible;
+ opacity: 1;
+ transition: opacity 0.8s ease-out 0.1s, visibility 0.1s ease-out 0s;
+ }
+.menu {
+	margin-top: 115px;
+	height: 45px;
+	background: rgba(148,0,211,0.5);
+	min-width: 450px;
+}
+.menu li:hover ul{display: block;}
+.menu ul li{float:none}
+.menu li:hover{background: rgba(179,16,0,0.5);}
+.menu ul li:hover{background-color: #000;}
+.menu ul li{margin-left: -40px;}
+.menu ul{
+	list-style-type: none;
+	display: none;
+	background-color: #9E18FF;
+	position: absolute;
+	top: 100%;
+	z-index: 999999;
+}
+.menu li{
+	float: left;
+	position: relative;
+	height: 100%;
+	padding: 0px;
+}
+.menu li a{
+	display: inline-block;
+	padding: 6px;
+	width: 105px;
+	color: #fff;
+	text-decoration: none;
+	text-align: center;
+}
+.block-content{
+	width: 1200px;
+	height: 2450px;
+	margin: 0 auto;
+}
+.block-content img{
+	margin-left: auto;
+	margin-right: auto;
+}
+.block-left{
+	width: 600px;
+	height: 1850px;
+	float: left;
+	text-align:center;
+	font-size: 20px;
+}
+.block-left p{
+	padding-right: 5px;
+	padding-left: 5px;
+}
+.block-left img{
+	width: 550px;
+	height: 320px;
+}
+.block-right{
+	width: 600px;
+	height: 1850px;
+	float: right;
+	text-align:center;
+	font-size: 20px;
+}
+.block-right p{
+	padding-right: 5px;
+	padding-left: 5px;
+}
+.block-right img{
+	width: 450px;
+	height: 295px;
+	display: block;
+	margin: auto;
+}
+.footer{
+	width: 1200px;
+	height: 50px;
+	float:left;
+	font-size: 15px;
+	text-align:center;
+}
+.footer p{
+	font-size: 18px;
+}
+.iframe1 iframe{
+	width:1197px;
+	height: 700px;
+	display: block;
+	margin: auto;
+}
+.block-content-cars{
+    width: 1200px;
+	height: 2600px;
+	text-align: center;
+	font-size: 25px;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+.block-content-cars p{ margin-right: 10px;}
+.block-content-cars h1{margin: 0 155px;}
+.block-content-cars img{width: 1100px; height: 500px;}
+.site-block-cars{
+	width: 1200px;
+	height: 2843px;
+	margin: auto;
+	background: rgba(148,0,211,0.5);
+}
+.block-content-supra{
+    width: 1200px;
+	height: 3350px;
+	text-align: center;
+	font-size: 25px;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+.block-content-supra p{ margin-right: 10px;}
+.block-content-supra h1{margin: 0 155px;}
+.block-content-supra img{width: 1100px; height: 500px;}
+.site-block-supra{
+	width: 1200px;
+	height: 3597px;
+	margin: auto;
+	background: rgba(148,0,211,0.5);
+}
+.gifk img{width: 1100px; height: 420px; margin-top: 100px;}
+.muzei img{width: 1000px; height: 650px;}
+.block-content-muzei{
+    width: 1200px;
+	height: 1750px;
+	text-align: center;
+	font-size: 25px;
+}
+.block-content-muzei a{text-decoration:none; color: white;}
+.block-content-muzei h1{margin: 0 155px;}
+.site-block-muzei{
+	width: 1200px;
+	height: 2007px;
+	margin: auto;
+	background: rgba(148,0,211,0.5);
+}
+.block-content-galant{
+    width: 1200px;
+	height: 2600px;
+	text-align: center;
+	font-size: 25px;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+.block-content-galant p{ margin-right: 10px;}
+.block-content-galant h1{margin: 0 155px;}
+.block-content-galant img{width: 1100px; height: 500px;}
+.site-block-galant{
+	width: 1200px;
+	height: 2843px;
+	margin: auto;
+	background: rgba(148,0,211,0.5);
+}
+.block-content-eclipse{
+    width: 1200px;
+	height: 2700px;
+	text-align: center;
+	font-size: 25px;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+.block-content-eclipse p{ margin-right: 10px;}
+.block-content-eclipse h1{margin: 0 155px;}
+.block-content-eclipse img{width: 1100px; height: 500px;}
+.site-block-eclipse{
+	width: 1200px;
+	height: 2947px;
+	margin: auto;
+	background: rgba(148,0,211,0.5);
+}
+.block-content-lancer{
+    width: 1200px;
+	height: 2950px;
+	text-align: center;
+	font-size: 25px;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+.block-content-lancer p{ margin-right: 10px;}
+.block-content-lancer h1{margin: 0 155px;}
+.block-content-lancer img{width: 1100px; height: 500px;}
+.site-block-lancer{
+	width: 1200px;
+	height: 3197px;
+	margin: auto;
+	background: rgba(148,0,211,0.5);
+}
+.block-content-celica{
+    width: 1200px;
+	height: 2750px;
+	text-align: center;
+	font-size: 25px;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+.block-content-celica p{ margin-right: 10px;}
+.block-content-celica h1{margin: 0 155px;}
+.block-content-celica img{width: 1100px; height: 500px;}
+.site-block-celica{
+	width: 1200px;
+	height: 2993px;
+	margin: auto;
+	background: rgba(148,0,211,0.5);
+}
+.block-content-skyline{
+    width: 1200px;
+	height: 2740px;
+	text-align: center;
+	font-size: 25px;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+.block-content-skyline p{ margin-right: 10px;}
+.block-content-skyline h1{margin: 0 155px;}
+.block-content-skyline img{width: 1100px; height: 500px;}
+.site-block-skyline{
+	width: 1200px;
+	height: 2983px;
+	margin: auto;
+	background: rgba(148,0,211,0.5);
+}
+.block-content-180sx{
+    width: 1200px;
+	height: 2680px;
+	text-align: center;
+	font-size: 25px;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+.block-content-180sx p{ margin-right: 10px;}
+.block-content-180sx h1{margin: 0 155px;}
+.block-content-180sx img{width: 1100px; height: 500px;}
+.site-block-180sx{
+	width: 1200px;
+	height: 2927px;
+	margin: auto;
+	background: rgba(148,0,211,0.5);
+}
+.block-content-s2000{
+    width: 1200px;
+	height: 2690px;
+	text-align: center;
+	font-size: 25px;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+.block-content-s2000 p{ margin-right: 10px;}
+.block-content-s2000 h1{margin: 0 155px;}
+.block-content-s2000 img{width: 1100px; height: 500px;}
+.site-block-s2000{
+	width: 1200px;
+	height: 2937px;
+	margin: auto;
+	background: rgba(148,0,211,0.5);
+}
+.block-content-integra{
+    width: 1200px;
+	height: 2680px;
+	text-align: center;
+	font-size: 25px;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+.block-content-integra p{ margin-right: 10px;}
+.block-content-integra h1{margin: 0 155px;}
+.block-content-integra img{width: 1100px; height: 500px;}
+.site-block-integra{
+	width: 1200px;
+	height: 2927px;
+	margin: auto;
+	background: rgba(148,0,211,0.5);
+}
+.block-content-rx-7{
+    width: 1200px;
+	height: 2480px;
+	text-align: center;
+	font-size: 25px;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+.block-content-rx-7 p{ margin-right: 10px;}
+.block-content-rx-7 h1{margin: 0 155px;}
+.block-content-rx-7 img{width: 1100px; height: 500px;}
+.site-block-rx-7{
+	width: 1200px;
+	height: 2727px;
+	margin: auto;
+	background: rgba(148,0,211,0.5);
+}
+.block-content-miata{
+    width: 1200px;
+	height: 2550px;
+	text-align: center;
+	font-size: 25px;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+.block-content-miata p{ margin-right: 10px;}
+.block-content-miata h1{margin: 0 155px;}
+.block-content-miata img{width: 1100px; height: 500px;}
+.site-block-miata{
+	width: 1200px;
+	height: 2797px;
+	margin: auto;
+	background: rgba(148,0,211,0.5);
+}
+video{margin-top: 13px}
+.jdm video{width: 1100px;}
+
